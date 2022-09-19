@@ -34,7 +34,7 @@ class AuthController extends Controller
             'username' => $fields['username'],
             'email' => $fields['email'],
             'password' => bcrypt($fields['password']),
-            'isadmin' => 0,
+            'isAdmin' => 0,
         ]);
 
         //Sign in on successful user account creation

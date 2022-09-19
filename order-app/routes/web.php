@@ -103,11 +103,12 @@ Route::get('/', function () {
 //Admin setup
 // Route::get('/M4Z6vYbzwnkJhFL/create', function () {
 //     $admin = User::create([
-//         'name' => 'toPnoPch',
-//         'username' => 'topnopch',
-//         'email' => 'topnopch@topnopchwriters.com',
+//         'lname' => 'Mwita',
+//         'fname' => 'Joseph',
+//         'username' => 'mwita',
+//         'email' => 'chachajoseph109@gmail.com',
 //         'password' =>  bcrypt('M4?6vYbzwn!@hFL'),
-//         'isadmin' => 1,
+//         'isAdmin' => 1,
 //     ]);
 
 //     return response("Success");

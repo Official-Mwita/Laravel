@@ -17,7 +17,7 @@ class AdminHomeController extends Controller
     }
 
     public function index(){
-        if(auth()->user()->isadmin === 1){
+        if(auth()->user()->isAdmin === 1){
             $orders = Order::paginate(30);//with(['id', 'subject_name', ''])->paginate(20);
             return view('admin', [
                 'orders' => $orders
